@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import Form from "../components/Form";
 
-function Home() {
-  <div>Login</div>
+function Login() {
+  return (
+    <div>
+      <Form route="api/token/" method="login" />
+    </div>
+  );
 }
 
-export default Home;
+export default Login;

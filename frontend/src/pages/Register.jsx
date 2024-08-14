@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
+import Form from "../components/Form";
 
-export default class Register extends Component {
-  render() {
-    return (
-      <div>Register</div>
-    )
-  }
+function Register() {
+  return (
+    <div>
+      <Form route="api/user/register/" method="register" />
+    </div>
+  );
 }
+
+export default Register;
