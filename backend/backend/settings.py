@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-n6oka@kfr)-zl$%0ef55bij22^9me($-@x@jf2#ykk++woza=n"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -67,9 +67,7 @@ CORS_ALLOW_ALL_ORIGIN = True
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
-    "http://localhost:8000",
-    'http://localhost:5173',
+    "https://notes-blue-five.vercel.app",
 ]
 
 ROOT_URLCONF = "backend.urls"
