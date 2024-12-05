@@ -18,7 +18,7 @@ SECRET_KEY = "django-insecure-n6oka@kfr)-zl$%0ef55bij22^9me($-@x@jf2#ykk++woza=n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://noteswebapp.pythonanywhere.com", "localhost", "*"]
 
 
 REST_FRAMEWORK = {
