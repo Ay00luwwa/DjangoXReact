@@ -4,6 +4,7 @@ function Login() {
   return (
     <div>
       <Form route="api/token/" method="login" />
+      <p>default username and password: test</p>
     </div>
   );
 }
